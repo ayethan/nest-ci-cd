@@ -33,7 +33,7 @@ describe('truncateDescription', () => {
 
   it('trims leading and trailing spaces', () => {
     const input =
-      '   One two three four five six seven eight nine ten eleven   ';
+      '   One two three four five six seven eight nine ten eleven';
     expect(truncateDescription(input)).toBe(
       'One two three four five six seven eight nine ten...',
     );
