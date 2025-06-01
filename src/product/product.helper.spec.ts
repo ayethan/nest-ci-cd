@@ -35,7 +35,7 @@ describe('truncateDescription', () => {
     const input =
       '   One two three four five six seven eight nine ten eleven   ';
     expect(truncateDescription(input)).toBe(
-      'One two three four five six seven eight nine ten',
+      'One two three four five six seven eight nine ten...',
     );
   });
 });
